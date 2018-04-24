@@ -22,6 +22,6 @@ app.get('/letter', function (req, res) {
     res.send(mocks.letter);
 });
 
-app.listen(4000, function () {
+app.listen(80, function () {
     console.log('Example app listening on port 4000!');
 });
